@@ -111,7 +111,7 @@ in the fields.
 1. To generate a table of contents
 
     ```shell script
-    $(cd docs/adr && adr-log -i)
+    $(cd doc/decisions/madr && adr-log -i)
     ```
 
 ### Examples
