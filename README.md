@@ -99,19 +99,20 @@ contain a few more fields including 'considered options' which is required.
 
 ### How to create
 
-1. To create a new ADR, copy template.md as NNNN-title-of-decision.md, and fill
-in the fields.
-
-1. To install adr-log
+1. Install `adr-log` if you do not have this already
 
     ```shell script
     npm install -g adr-log
     ```
 
-1. To generate a table of contents
+1. Copy [template.md](doc/decisions/madr/template.md) as NNNN-title-of-decision.md, and fill
+in the fields. Do not feel you have to fill in all the fields, only fill in fields
+that are strictly necessary. Some decisions will merit more detail than others.
+
+1. To re-generate the table of contents, run
 
     ```shell script
-    $(cd doc/decisions/madr && adr-log -i)
+    ./generate-madl.sh
     ```
 
 ### Examples
